@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Kiva/static/css/main.f743c6f2.css",
+    "main.js": "/Kiva/static/js/main.54156bac.js",
+    "static/js/453.01169e3f.chunk.js": "/Kiva/static/js/453.01169e3f.chunk.js",
+    "static/media/pexels-divinetechygirl.jpg": "/Kiva/static/media/pexels-divinetechygirl.994d9548d60088677e93.jpg",
+    "static/media/pricing.jpg": "/Kiva/static/media/pricing.13cbd678a71db2aecd0f.jpg",
+    "static/media/afterafterfaq.jpg": "/Kiva/static/media/afterafterfaq.3d5f6a4d55389c0092b5.jpg",
+    "static/media/herosection.jpg": "/Kiva/static/media/herosection.609af4bb879d40399732.jpg",
+    "static/media/business.jpg": "/Kiva/static/media/business.986d6457a2ee74bbd3fd.jpg",
+    "static/media/herosection2.jpg": "/Kiva/static/media/herosection2.903eb148dadb9d960797.jpg",
+    "static/media/faq.jpg": "/Kiva/static/media/faq.f2a941d80efa5bb4fb60.jpg",
+    "static/media/common1.jpg": "/Kiva/static/media/common1.5a2a1deb1dbaaa4a6763.jpg",
+    "static/media/contact-us-bg.jpg": "/Kiva/static/media/contact-us-bg.799380525e7cf1702ce7.jpg",
+    "static/media/features.jpg": "/Kiva/static/media/features.b694c9b8325e655dc5d1.jpg",
+    "static/media/aboutus.jpg": "/Kiva/static/media/aboutus.006f5c9cee605246bc79.jpg",
+    "index.html": "/Kiva/index.html",
+    "main.f743c6f2.css.map": "/Kiva/static/css/main.f743c6f2.css.map",
+    "main.54156bac.js.map": "/Kiva/static/js/main.54156bac.js.map",
+    "453.01169e3f.chunk.js.map": "/Kiva/static/js/453.01169e3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f743c6f2.css",
+    "static/js/main.54156bac.js"
+  ]
+}
