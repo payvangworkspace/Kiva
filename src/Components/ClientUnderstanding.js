@@ -5,8 +5,6 @@ const ClientUnderstanding = () => {
   const navigate=useNavigate();
 const redirectToAbout=()=>{
 navigate("/about")
-
-
 }
 
 

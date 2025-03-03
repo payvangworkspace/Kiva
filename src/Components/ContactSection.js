@@ -12,14 +12,14 @@ const contactDetails = [
   {
     icon: <FaPhoneAlt />,
     title: "Call Us",
-    info: "(+91) 011-45128901/02",
+    info: "(+256) 777 007880",
     subtitle: "Free Consultation",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Visit Us",
-    info: "11/12 West Patel Nagar",
-    subtitle: "New Delhi 110008, India",
+    info: "BIFRO HOUSE Plot No: 24B, 1st Floor Suite No. 7",
+    subtitle: "Kampala, Uganda",
   },
 ];
 
