@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import Login from './Login';
 import Loader from './Loader';
+import BusinessCreateAccount from './BusinessCreateAccount'
+import Footer from './Footer';
 
 export const LoginSection = () => {
   const [loading, setLoading] = useState(true);
@@ -23,6 +25,8 @@ export const LoginSection = () => {
         <>
           <Navbar />
           <Login />
+         <BusinessCreateAccount/>
+         <Footer/>
         </>
       )}
     </>
