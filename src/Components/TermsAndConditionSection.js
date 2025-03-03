@@ -1,21 +1,36 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import { TermsAndConditionBanner } from './TermsAndConditionBanner'
 import TermsAndConditions from './TermsAndConditions'
 import BusinessCreateAccount from './BusinessCreateAccount'
 import Footer from './Footer'
-import { useEffect } from 'react'
+import Loader from './Loader' // Assuming Loader component is available
+
 export const TermsAndConditionSection = () => {
-     useEffect(()=>{
-        document.title="KivaPays -  Terms & Conditions"
-      })
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    document.title = "KivaPays - Terms & Conditions";
+
+    // Simulating a small delay before showing content
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000); // 1 second delay (adjust as needed)
+  }, []);
+
   return (
-  <>
-  <Navbar/>
-  <TermsAndConditionBanner/>
-  <TermsAndConditions/>
-  <BusinessCreateAccount/>
-  <Footer/>
-  </>
-  )
-}
+    <>
+      {loading ? (
+        <Loader /> // Show loader while content is loading
+      ) : (
+        <>
+          <Navbar />
+          <TermsAndConditionBanner />
+          <TermsAndConditions />
+          <BusinessCreateAccount />
+          <Footer />
+        </>
+      )}
+    </>
+  );
+};
