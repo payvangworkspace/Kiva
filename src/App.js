@@ -27,8 +27,9 @@ import { LoginSection } from "./Components/LoginSection";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div>
+    <Router basename="/Kiva/">
+     
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<SolutionsAndFeatures />} />
@@ -53,8 +54,9 @@ function App() {
 
 
         </Routes>
-      </div>
+  
     </Router>
+    </div>
   );
 }
 
