@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 import "../RightSection.css"; // Ensure this contains styles for RightSection
+import { useNavigate } from "react-router-dom";
 
 const features = [
     "Deposit Checks Instantly",
@@ -14,6 +15,16 @@ const features = [
   
 
 const RightSection = () => {
+ const navigate=useNavigate();
+
+
+  const redirectToContact=()=>{
+    navigate("/contact")
+
+  }
+
+
+
   return (
     <section className="business-section">
       <div className="business-container right-layout">
@@ -56,7 +67,7 @@ const RightSection = () => {
           <motion.button
             className="business-btn"
             whileHover={{ scale: 1.05 }}
-          >
+              onClick={redirectToContact} >
             Get Started
           </motion.button>
         </motion.div>

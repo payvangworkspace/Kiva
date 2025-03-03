@@ -1,7 +1,15 @@
 import React from "react";
 import "../HeroSection.css";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate=useNavigate();
+
+  const redirectToPaymentGateway=()=>{
+    navigate("/payment-gateway")
+  }
+
+
   return (
     <section className="hero-section">
       <div className="hero-content">
@@ -9,7 +17,7 @@ const HeroSection = () => {
         <p>
           Secure, fast, and seamless transactions designed for your business growth.
         </p>
-        <button className="hero-btn">Get Started</button>
+        <button className="hero-btn" onClick={redirectToPaymentGateway}>Get Started</button>
       </div>
     </section>
   );

@@ -1,7 +1,15 @@
 import React from "react";
 import { FaUserPlus } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const BusinessCreateAccount = () => {
+  const navigate=useNavigate()
+
+  const redirectToSignUp=()=>{
+    navigate("/signup")
+
+  }
+
   return (
     <section className="business-create-section">
       <div className="business-create-container">
@@ -9,7 +17,7 @@ const BusinessCreateAccount = () => {
         <p className="business-create-subtitle">
           Start your journey with KivaPays and unlock seamless payment solutions.
         </p>
-        <button className="business-create-button">
+        <button className="business-create-button" onClick={redirectToSignUp}>
           <FaUserPlus className="button-icon" /> Create Your Account
         </button>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../Invoicingcontent.css"; 
+import { Link } from "react-router-dom";
 
 
 const InvoicingContent = () => {
@@ -32,7 +33,7 @@ const InvoicingContent = () => {
         <img src={"/invoicing.jpg"} alt="Invoicing Process" />
       </div>
       <div className="signup-container">
-      <a href="/signup" className="signup-button">Sign Up Now</a>
+      <Link to="/signup" className="signup-button">Sign Up Now</Link>
       </div>
     </div>
   );

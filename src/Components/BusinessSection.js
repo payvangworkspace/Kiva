@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 import "../BusinessSection.css"; // Updated CSS file
+import { useNavigate } from "react-router-dom";
 
 const features = [
     "International Payments",
@@ -11,8 +12,18 @@ const features = [
     "Automated Accounting",
     "Web Design",
   ];
+
+
   
 const BusinessSection = () => {
+  const navigate=useNavigate();
+
+
+  const redirectToContact=()=>{
+    navigate("/contact")
+
+  }
+
   return (
     <section className="business-section">
       <div className="business-container">
@@ -42,7 +53,7 @@ const BusinessSection = () => {
             ))}
           </ul>
 
-          <motion.button className="business-btn" whileHover={{ scale: 1.05 }}>
+          <motion.button className="business-btn" whileHover={{ scale: 1.05 }} onClick={redirectToContact}>
             Get Started
           </motion.button>
         </motion.div>

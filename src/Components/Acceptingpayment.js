@@ -1,5 +1,6 @@
 import React from "react";
 import "../Acceptingpayment.css";
+import { Link } from "react-router-dom";
 // import paymentImage from "../public/paymentgate.jpg";
 
 const AcceptingPayment = () => {
@@ -31,7 +32,7 @@ const AcceptingPayment = () => {
           </li>
           <li>Pay via QR Code, SMS, Web Link.</li>
           <li>
-            Transparent and timely <strong>"Payvang Settlement"</strong> and
+            Transparent and timely <strong>"KivaPays Settlement"</strong> and
             payouts.
           </li>
           <li>
@@ -43,7 +44,7 @@ const AcceptingPayment = () => {
       <img src={"/paymentgate.jpg"} alt="Payment Process" />
       </div>
       <div className="signup-container">
-      <a href="/signup" className="signup-button">Sign Up Now</a>
+      <Link to="/signup" className="signup-button">Sign Up Now</Link>
       </div>
     </div>
   );

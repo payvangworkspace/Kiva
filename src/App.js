@@ -19,6 +19,7 @@ import {InvoiceSection} from "./Components/InvoiceSection";
 import { ViratualaccountSection } from "./Components/VirtualaccountSection";
 import { WhitelabelSection } from "./Components/WhitelabelSection";
 import Register from "./Components/Register";
+import { LoginSection } from "./Components/LoginSection";
 
 
 
@@ -46,7 +47,7 @@ function App() {
           <Route path="/white-label" element={<WhitelabelSection />} />
           <Route path="/signup" element={<Register />} />
 
-
+          <Route path="/login" element={<LoginSection />} />
 
 
 
