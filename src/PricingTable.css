@@ -1,0 +1,74 @@
+/* PricingTable.css */
+
+.pricing-section {
+    background: #f5f7fa;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pricing-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+  }
+  
+  .pricing-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .plan-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .plan-price {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  
+  .plan-features li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+  
+  .feature-icon {
+    color: #28a745;
+  }
+  
+  .btn-get-started {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btn-get-started:hover {
+    background: #218838;
+  }
+  

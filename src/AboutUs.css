@@ -1,0 +1,43 @@
+#heading-of-about {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(54, 54, 100);
+}
+
+#about-us {
+    display: flex;  /* Enables side-by-side layout */
+    align-items: center;  /* Vertically aligns content */
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 70vw; /* Increased width for better layout */
+    padding: 20px;
+    text-align: justify;
+    /* margin: auto; */
+}
+
+.about-text {
+    width: 60%; /* Adjust width for proper text flow */
+    padding-right: 20px;
+}
+
+.about-image {
+    width: 35%;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.distance {
+    margin-top: 20px;
+}
+
+.about-me {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(225, 233, 236); */
+    padding: 20px;
+}

@@ -1,0 +1,149 @@
+/* -------------------- SECTION CONTAINER -------------------- */
+.business-section {
+    background: linear-gradient(to bottom, #f0f5ff, #ddeeff); /* Soft Sky Blue Gradient */
+    /* background: linear-gradient(135deg, #f4f6ff, #e8f0fe); */
+    padding: 6rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 4rem;
+}
+
+/* -------------------- LEFT SIDE - CONTENT -------------------- */
+.business-content {
+    flex: 1;
+    text-align: left;
+}
+
+/* Title */
+.business-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #0047AB; /* Deep Royal Blue */
+    margin-bottom: 1.2rem;
+}
+
+/* Description */
+.business-description {
+    font-size: 1.4rem;
+    color: #1565C0; /* Bright Sky Blue */
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+/* Features List */
+.business-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0047AB; /* Deep Royal Blue */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.feature-item:hover {
+    transform: translateX(10px);
+}
+
+/* Feature Icons */
+.feature-icon {
+    color: #1E88E5; /* Vibrant Blue */
+}
+
+/* Call-to-Action Button */
+.business-btn {
+    background: linear-gradient(135deg, #1E88E5, #0047AB); /* Enhanced Gradient */
+    color: white;
+    padding: 16px 32px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-top: 1.2rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.business-btn:hover {
+    background: linear-gradient(135deg, #1565C0, #0047AB);
+    transform: scale(1.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* -------------------- RIGHT SIDE - CIRCULAR IMAGE -------------------- */
+.business-image-container {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, #ddeeff, #bbdefb); /* Smooth Gradient */
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+    transition: transform 1s ease-in-out;
+}
+
+.business-image-container:hover {
+    transform: scale(1.12);
+}
+
+.business-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* -------------------- RESPONSIVE DESIGN -------------------- */
+@media (max-width: 992px) {
+    .business-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .business-content {
+        text-align: center;
+    }
+
+    .feature-item {
+        justify-content: center;
+    }
+
+    .business-btn {
+        margin-top: 1.5rem;
+    }
+
+    .business-image-container {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+/* -------------------- ANIMATIONS -------------------- */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,89 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 90vh;
+    background: linear-gradient(to bottom, rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.9)),
+                url("../public/herosection.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Hero Content Box */
+.hero-content {
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Title Styling */
+.hero-content h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+/* Description Styling */
+.hero-content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Button Styling */
+.hero-btn {
+    background: linear-gradient(135deg, #256aa7, #0b65c0);
+    color: white;
+    border: none;
+    padding: 16px 38px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 20px rgba(151, 157, 161, 0.847);
+}
+
+/* Button Hover Effect */
+.hero-btn:hover {
+    background: linear-gradient(135deg, #0cae68, #0eb83e);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(215, 220, 212, 0.6);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 75vh;
+    }
+    .hero-content {
+        padding: 30px 25px;
+    }
+    .hero-content h1 {
+        font-size: 38px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .hero-btn {
+        font-size: 16px;
+        padding: 14px 30px;
+    }
+}

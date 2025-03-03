@@ -1,0 +1,44 @@
+.stats-section {
+    text-align: center;
+    padding: 3rem;
+    background: linear-gradient(to right, #f8fafc, #e3f2fd);
+  }
+  
+  .stats-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 2rem;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .stat-box {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .stat-box:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #007bff;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  

@@ -1,0 +1,82 @@
+.integration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+   
+  .integration-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+   
+  .integration-content {
+    width: 50%;
+    text-align: left;
+  }
+   
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+  }
+   
+  .description, .sub-heading, .final-note {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 15px;
+  }
+   
+  .integration-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+   
+  .technology-icons {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+   
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+   
+  .tech-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+   
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+   
+  .tech-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #222;
+  }
