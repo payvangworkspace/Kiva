@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kiva/static/css/main.f743c6f2.css",
-    "main.js": "/Kiva/static/js/main.54156bac.js",
+    "main.js": "/Kiva/static/js/main.f05cf453.js",
     "static/js/453.01169e3f.chunk.js": "/Kiva/static/js/453.01169e3f.chunk.js",
     "static/media/pexels-divinetechygirl.jpg": "/Kiva/static/media/pexels-divinetechygirl.994d9548d60088677e93.jpg",
     "static/media/pricing.jpg": "/Kiva/static/media/pricing.13cbd678a71db2aecd0f.jpg",
@@ -16,11 +16,11 @@
     "static/media/aboutus.jpg": "/Kiva/static/media/aboutus.006f5c9cee605246bc79.jpg",
     "index.html": "/Kiva/index.html",
     "main.f743c6f2.css.map": "/Kiva/static/css/main.f743c6f2.css.map",
-    "main.54156bac.js.map": "/Kiva/static/js/main.54156bac.js.map",
+    "main.f05cf453.js.map": "/Kiva/static/js/main.f05cf453.js.map",
     "453.01169e3f.chunk.js.map": "/Kiva/static/js/453.01169e3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f743c6f2.css",
-    "static/js/main.54156bac.js"
+    "static/js/main.f05cf453.js"
   ]
 }
