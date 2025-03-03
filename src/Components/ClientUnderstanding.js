@@ -1,6 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ClientUnderstanding = () => {
+  const navigate=useNavigate();
+const redirectToAbout=()=>{
+navigate("/about")
+
+
+}
+
+
+  
   return (
     <section className="client-section">
       <div className="client-container">
@@ -14,7 +24,7 @@ const ClientUnderstanding = () => {
           <p className="client-description">
             Backed by cutting-edge security and seamless technology, we provide a robust platform that enhances your business operations and ensures maximum efficiency.
           </p>
-          <button className="client-button">Learn More</button>
+          <button className="client-button" onClick={redirectToAbout}>Learn More</button>
         </div>
         <div className="client-image">
           <img src="/home-facility-bg.png" alt="Client engaging with technology" />

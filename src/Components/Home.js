@@ -22,7 +22,7 @@ export const Home = () => {
     // Simulating a small delay before showing content
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // 2 seconds delay (adjust as needed)
+    }, 1000); // 1 seconds delay (adjust as needed)
   }, []);
 
   return (

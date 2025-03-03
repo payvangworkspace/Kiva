@@ -36,7 +36,7 @@ const TermsAndConditions = () => {
             They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).
           </p>
           <p>
-            You may not create a link to this website from another website or document without 'Payvang' prior written consent.
+            You may not create a link to this website from another website or document without 'KivaPays' prior written consent.
           </p>
           <p>
             If you choose, or you are provided with, a user identification code, password, or any other piece of information as part of our security procedures,

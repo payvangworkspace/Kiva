@@ -21,7 +21,7 @@ const IntegrationSection = () => {
         <div className="integration-content">
           <h2 className="title">Simplistic Integration Ever</h2>
           <p className="description">
-            Integrating payments with PayVang is seamless with well-documented SDKs, RESTful APIs, and plugins for all major platforms and languages.
+            Integrating payments with KivaPays is seamless with well-documented SDKs, RESTful APIs, and plugins for all major platforms and languages.
           </p>
           <p className="sub-heading">Complete integration with…</p>
           <ul className="integration-list">

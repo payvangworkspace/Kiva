@@ -1,5 +1,6 @@
 import React from "react";
 import "../Virtualaccountcontent.css"; 
+import { Link } from "react-router-dom";
 
 
 const VirtualAccountContent = () => {
@@ -52,7 +53,7 @@ const VirtualAccountContent = () => {
       </div>
 
       <div className="signup-container">
-      <a href="/signup" className="signup-button">Sign Up Now</a>
+      <Link to="/signup" className="signup-button">Sign Up Now</Link>
       </div>
       
       </div>

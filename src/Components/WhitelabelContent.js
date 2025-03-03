@@ -1,5 +1,6 @@
 import React from "react";
 import "../Whitelabelcontent.css";
+import { Link } from "react-router-dom";
 
 const WhiteLabelContent = () => {
   return (
@@ -41,7 +42,7 @@ const WhiteLabelContent = () => {
         <p>For more details please contact us:</p>
 
         <div className="signup-container">
-      <a href="/contact" className="signup-button">Contact Us Now</a>
+      <Link to="/contact" className="signup-button">Contact Us Now</Link>
       </div>
 
       </div>

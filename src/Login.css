@@ -1,0 +1,118 @@
+/* Background with Blur Effect */
+.kiva-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1d3557, #457b9d);
+  }
+  
+  /* Glassmorphism Effect */
+  .kiva-login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    padding: 40px;
+    width: 380px; /* Adjusted width for better fit */
+    text-align: center;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .kiva-login-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Heading & Subheading */
+  .kiva-heading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .kiva-subheading {
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .kiva-input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* Icons */
+  .kiva-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  /* Input Styling */
+  .kiva-input-container input {
+    width: calc(100% - 50px); /* Adjusted width to prevent overlap */
+    padding: 12px 15px 12px 40px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    color: #ffffff;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .kiva-input-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .kiva-input-container input:focus {
+    border-color: #f4a261;
+  }
+  
+  /* Login Button */
+  .kiva-login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: #f4a261;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .kiva-login-btn:hover {
+    background: #e76f51;
+  }
+  
+  /* Forgot Password */
+  .kiva-forgot {
+    margin-top: 10px;
+  }
+  
+  .kiva-forgot a {
+    text-decoration: none;
+    color: #f4a261;
+    font-weight: bold;
+  }
+  
+  .kiva-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .kiva-login-box {
+      width: 90%;
+    }
+  
+    .kiva-input-container input {
+      width: calc(100% - 40px); /* Adjusted for small screens */
+    }
+  }
+  

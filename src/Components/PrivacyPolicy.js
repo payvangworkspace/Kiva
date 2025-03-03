@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
     <div className="privacy-container">
       <h1 className="privacy-title">Privacy Policy</h1>
       <p className="privacy-text">
-        <strong>'PayVang' India</strong> ensures that your privacy is protected and secured. We use your personal data only as outlined in this policy.
+        <strong>'KivaPays' Uganda</strong> ensures that your privacy is protected and secured. We use your personal data only as outlined in this policy.
       </p>
       
       <h2 className="privacy-heading">Information Required:</h2>
@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
         <li>Relevant application information</li>
       </ul>
 
-      <h2 className="privacy-heading">Why does PayVang collect your information?</h2>
+      <h2 className="privacy-heading">Why does KivaPays collect your information?</h2>
       <div className="privacy-section">
         <div>
           <strong>To personalize user experience:</strong>
@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-      <h2 className="privacy-heading">PayVang Security & Data Storage</h2>
+      <h2 className="privacy-heading">KivaPays Security & Data Storage</h2>
       <p className="privacy-text">
         Data is stored securely with **256-bit SSL encryption**. Third-party verification is used to prevent fraud.
       </p>
