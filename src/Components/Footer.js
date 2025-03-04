@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h3>Address</h3>
           <p>BIFRO HOUSE Plot No: 24B, 1st Floor Suite No. 7, Kampala, Uganda</p>
-          <p>Email: <a href="mailto:info@payvang.com">info@payvang.com</a></p>
+          <p>Email: <a href="mailto:info@kivapays.com">info@kivapays.com</a></p>
           <p>Phone: (+256)777007880</p>
         </div>
 

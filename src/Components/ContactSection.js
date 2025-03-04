@@ -6,7 +6,7 @@ const contactDetails = [
   {
     icon: <FaEnvelope />,
     title: "Email Us",
-    info: "info@payvang.com",
+    info: "info@kivapays.com",
     subtitle: "Support 24/7",
   },
   {
