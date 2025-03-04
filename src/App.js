@@ -28,7 +28,7 @@ import { LoginSection } from "./Components/LoginSection";
 function App() {
   return (
     <div>
-    <Router basename="/Kiva/">
+    <Router>
      
         <Routes>
           <Route path="/" element={<Home />} />

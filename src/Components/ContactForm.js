@@ -12,9 +12,6 @@ const ContactForm = () => {
     message: "",
   });
 
-  // State to track form submission status
-  const [isFormValid, setIsFormValid] = useState(false);
-
   // Handle change of form inputs
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -31,11 +28,8 @@ const ContactForm = () => {
     // Validate form (check if all fields are filled)
     const { name, email, phone, subject, message } = formData;
     if (name && email && phone && subject && message) {
-      setIsFormValid(true);
-      // Call the function once all fields are filled
       onFormComplete();
     } else {
-      setIsFormValid(false);
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -54,6 +48,15 @@ const ContactForm = () => {
       text: "We will get back to you shortly.",
       confirmButtonText: "Close",
       confirmButtonColor: "#1E88E5", // Customize button color
+    }).then(() => {
+      // Clear the form fields after successful submission
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
     });
 
     // Here you can add logic to send data to a server if needed
