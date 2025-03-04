@@ -49,7 +49,7 @@ const VirtualAccountContent = () => {
           </ul>
         </div>
         <div className="virtual-account-image">
-        <img src={"/Virtual-Account.jpg"} alt="VAM Dashboard" />
+        <img src={"/Virtual-Accounts.jpg"} alt="VAM Dashboard" />
       </div>
 
       <div className="signup-container">

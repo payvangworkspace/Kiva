@@ -59,12 +59,12 @@
     height: auto;
     border-radius: 10px;
     box-shadow: none; /* Removed shadow to avoid border effect */
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out; */
 }
 
-.virtual-account-image img:hover {
+/* .virtual-account-image img:hover {
     transform: scale(1.05);
-}
+} */
 
 /* Responsive Styling */
 @media (max-width: 768px) {
